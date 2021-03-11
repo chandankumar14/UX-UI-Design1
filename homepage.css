@@ -1,0 +1,287 @@
+#top-image{
+    width: 100%;
+    height: 450px;
+	
+}
+
+
+#heading{
+	text-align:center;
+	font-family: 'Josefin Slab', serif;
+	 background-color:black;
+	 color:wheat;
+	 top:0px;
+}
+
+.logo{
+    position: absolute;
+    top: 135px;
+    left: 576px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 29px;
+    border-radius: 50%;
+    color: red;
+}
+.content{
+    position: absolute;
+    top: 203px;
+    left: 390px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.53;
+    text-align: left;
+    color: white;
+}
+
+.quick p{
+	padding-top:35px;
+	font-size :18px;
+	text-align:center;
+	color:green;
+	top:15px;
+	font-family: 'Josefin Slab', serif;
+	
+}
+
+.container-fluid{
+    margin-top: 0px;
+}
+
+.card1{
+    width: 360px;
+    height: 160px;
+   float: left;
+    border: 1px solid;
+    box-shadow: 5px 5px 10px #000000;
+    margin: 25px 25px ;
+    border-radius: 10px;
+   
+}
+.left {
+    width: 40%;
+    height: 100%;
+    float: left;
+   vertical-align: top;
+   
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+   float: left;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.left #img12{
+    width: 160px;
+    height: 160px;
+  border-radius: 10px;
+  padding-bottom: 3px;
+}
+
+.breakfast , .lunch ,.snack{
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+   
+    line-height: 1.5;
+    padding-top: 15px;
+    padding-left: 25px;
+    letter-spacing: normal;
+    text-align: left;
+    color: darkslateblue;
+}
+
+.paracontent{
+    width: 137px;
+  height: 62px;
+  font-family: Poppins;
+  font-size: 14px;
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 17spx;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: left;
+color: darkslateblue;
+margin-top: 8px;
+}
+
+
+
+/*   footer section start from here-------*/
+
+
+
+
+
+
+
+/* this for mobile view and orientation is portrait--------*/
+
+@media only screen and (max-device-width:480px ) and (orientation: portrait){
+
+    .logo{
+        position: absolute;
+        top: 60px;
+        left: 131px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        font-size: 28px;
+        border-radius: 50%;
+        color: red;
+    }
+    .content {
+        position: absolute;
+        top: 137px;
+        left: 30px;
+        font-family: Poppins;
+        font-size: 21px;
+        line-height: 1.53;
+        text-align: left;
+        color: white;
+    }
+    #heading{
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        background-color: black;
+        color: wheat;
+        top: 0px;
+        font-size: 23px;
+    }
+    .card1{
+        width: 360px;
+        height: 160px;
+       float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 15px 15px 10px 10px;
+        border-radius: 10px;
+       
+       
+    }
+
+
+}
+
+
+
+/* mobile view  and orientation is landscape-------*/
+
+
+
+@media only screen and (max-device-width:640px ) and (orientation: landscape){
+
+    .logo{
+        position: absolute;
+        top: 135px;
+        left: 254px;
+        width: 100px;
+        height: 50px;
+        background-color: white;
+        text-align: center;
+        /* padding-top: 10px; */
+        font-size: 29px;
+        border-radius: 50%;
+        color: red;
+    }
+    .content {
+        position: absolute;
+        top: 212px;
+        left: 50px;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-align: left;
+        color: white;
+    }
+    #heading{
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        background-color: black;
+        color: wheat;
+        top: 0px;
+        font-size: 27px;
+    }
+    .card1{
+        width: 360px;
+        height: 160px;
+       float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 15px 15px 10px 10px;
+        border-radius: 10px;
+       
+       
+    }
+
+
+}
+
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+#heading {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    background-color: black;
+    color: wheat;
+    top: 0px;
+}
+.logo {
+    position: absolute;
+    top: 135px;
+    left: 361px;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 29px;
+    border-radius: 50%;
+    color: red;
+}
+
+.content {
+    position: absolute;
+    top: 203px;
+    left: 105px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.53;
+    text-align: left;
+    color: white;
+}
+
+    .card1 {
+        width: 320px;
+        height: 160px;
+        float: left;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px #000000;
+        margin: 19px 20px;
+        border-radius: 10px;
+    }
+
+
+
+
+  }
+  
+
+
+
+
